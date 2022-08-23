@@ -11,7 +11,6 @@ const constructUrl = input => {
 };
 
 btnTranslate.addEventListener('click', () => {
-  console.log(inputDOM.value);
   const input = inputDOM.value;
 
   fetch(constructUrl(input))
